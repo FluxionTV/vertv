@@ -1,0 +1,318 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+html, body {background: linear-gradient(#8437dd,#8f33c4,#8437dd 100%);
+  width: 98.5%;
+  height: 100%;
+}
+  .header {
+  width: 110%;
+  height: 100%;
+  position:release;
+  text-align:center;
+  padding: 0, auto;
+}
+.header {
+  background: linear-gradient(#a52c92,#8f33c4,#8437dd,#280569 100%);
+}
+figure{text-align: center;
+}
+nav
+{
+  max-width: 960px;
+  /* The mask-image gives us some extra fading. It is not necessary but without this, you can't face out the box-shadows. This clips our menu */
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+  /* Using padding instead of margin for the top and bottom here will keep our box-shadow visible and not affected by the mask-image */
+  padding: 1px 0;
+}
+nav ul 
+{
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  padding: 15px;
+  font-family: "Roboto";
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
+  font-size: 25px;
+  text-decoration: none;
+  display: block;
+}
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 0, 0, 0.7);
+}
+@import url(https://fonts.googleapis.com/css?family=Nixie+One);
+h1#author {
+  position: fixed;
+  bottom: 50px;
+  text-align: center;
+  color: #30303f;
+  width: 100%;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  padding: 10px 0;
+  font-family: "Nixie One";
+  text-stroke: 1px;
+  font-size: 30px;
+  text-shadow: 0 0 10px #aaaaaa;
+  font-family: "Roboto"
+}
+h1#author a {
+  color: #3399dd;
+  text-decoration: none;
+}
+  .banner {
+  width: 101.5%;
+  height: 100%;
+  position:release;
+  text-align:center;
+  padding: 0;
+  margin: 0;
+}
+  .tve {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #D936E9;
+  border: 2px solid #D936E9;
+  border-radius: 0.6em;
+  color: #ffffff;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: auto;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: roboto;
+  font-size:20px;
+  font-weight: 700;
+  display: inline;
+}
+
+.tve:hover, .btn:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.tve {
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  text-align: center;
+}
+.tve:hover {
+  box-shadow: 0 0 40px 40px #ffffff inset;
+  color: #D936E9;
+}
+  .mfc {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #d2520f;
+  border: 2px solid #d2520f;
+  border-radius: 0.6em;
+  color: #ffffff;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: auto;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: roboto;
+  font-size:20px;
+  font-weight: 700;
+  display: inline;
+  text-decoration: none
+}
+
+.mfc:hover, .btn:focus {
+  color: #d2520f;
+  outline: 0;
+}
+
+.mfc {
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  text-align: center;
+}
+.mfc:hover {
+  box-shadow: 0 0 40px 40px #ffffff inset;
+  color:#d2520f;
+}
+  .botaotve  {
+  width: 100%;
+  height: 100%;
+  position:release;
+  text-align:center;
+  text-decoration:none;
+  display: inline
+}
+  .botaomfc {
+  width: 100%;
+  height: 100%;
+  position:release;
+  text-align:center;
+  display: inline
+}
+  .teste {
+  font-size:50px;
+  font-family:roboto;
+  text-transform: uppercase;
+	background: linear-gradient(to right,#ffffff, #D936E9,#EBA7F1,#ffffff 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  margin: 0
+}
+  .teste2 {
+  font-size:25px;
+  font-family:roboto;
+  text-transform: uppercase;
+	background: linear-gradient(to right,#ffffff, #D936E9,#EBA7F1,#ffffff 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  margin: 0
+}
+   .planos {
+  font-size:40px;
+  font-family:roboto;
+  text-transform: uppercase;
+  background: linear-gradient(to right,#ffffff, #D936E9,#EBA7F1,#ffffff 100%);
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+  text-align:center;
+  margin:1px 1px 1px 1px;
+}
+  .container {
+    margin: 0px ;
+  padding:10px;
+    text-align: center;
+}
+.imagem1 {
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+  position: relative;
+    top: 2px;
+  -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+  .imagem3 {
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+  position: relative;
+    top: 2px;
+  -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+  .imagem2 {
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+  margin:1px 80px 1px 80px;
+  text-decoration: none
+  position: relative;
+    top: 2px;
+  -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+  .imagem1:hover{
+  transform: scale(1.5);
+  z-index: 1;);
+}    
+  .imagem2:hover{
+  transform: scale(1.5);
+  z-index: 1;;
+} 
+  .imagem3:hover{
+  transform: scale(1.5);
+  z-index: 1;;
+} 
+  .noshow {
+    display: none;
+}
+  footer
+{clear: both;
+height: 50px;
+text-align: center;
+margin: 0px 0px 0px 0px;
+font-family: arial, helvetica;
+font-weight: bold ;
+font-size: 20px;
+color: #ffffff
+}
+  
+  .feed-links { display:none; 
+}
+  
+  .home-link {display:none;
+}
+  
+  .tutorial {
+  font-size:32px;
+  font-family:roboto;
+  text-transform: uppercase;
+	background: linear-gradient(to right,#ffffff, #D936E9,#EBA7F1,#ffffff 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+   text-align:center;
+  margin:30px 1px 1px 1px;
+ 
+}
+  
+.postagem {
+  display: flex;
+}
+
+.item {
+  position: relative;
+  display: block;
+  flex: 1 1 0px;
+  transition: transform 500ms;
+  padding:5px
+}
+
+.postagem .item:focus,
+.postagem .item:hover {
+  transform: scale(1.5);
+  z-index: 1;
+}
+
+.item img {
+  display: block;
+  max-width: 100%;
+}
+  .item img {
+        border-radius: 10px;
+    box-shadow:rgba(255, 255, 0, 1) ;
+    }
